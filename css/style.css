@@ -305,11 +305,26 @@ h6 {
   line-height: 26px;
 }
 
-.promo__descriptions {
+.promo__list {
   text-align: center;
+  margin-bottom: 70px;
+}
+
+.promo__link {
+  display: block;
+  margin: 0 auto;
+  background-color: #f05934;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 140px;
+  padding: 12px 0;
+  color: #fff;
 }
 
 .promo__item {
+  max-width: 400px;
+  margin: 0 auto;
   margin-bottom: 10px;
   font-size: 18px;
 }
@@ -335,9 +350,14 @@ h6 {
           justify-content: space-between;
 }
 
+.footer__subtitle {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 .footer__title {
-  font-size: 50px;
-  line-height: 70px;
+  font-size: 35px;
   margin-bottom: 40px;
 }
 
